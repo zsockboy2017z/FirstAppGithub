@@ -18,6 +18,19 @@ public class CNTTK37a {
 		namSinh= ns;
 	}
     
+	private void setHoTen(String hoTen){
+		this.hoTen = hoTen;
+	}
+
+	private String getHoTen()){
+		return this.hoTen;
+	}
+
+	public static void main(String[] args) {
+		CNTTK37a a = new CNTTK37a();
+		this.setHoTen("man");
+		System.out.println(a.getHoTen);
+	}
     
     
 }
